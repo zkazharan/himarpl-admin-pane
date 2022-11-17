@@ -23,6 +23,7 @@ export default function Admin() {
             <Route path='/tables' exact element={<Tables />} />
           </Routes>
           <FooterAdmin />
+          
         </div>
       </div>
     </>
