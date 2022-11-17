@@ -1767,6 +1767,11 @@ select {
   padding-bottom: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -1860,8 +1865,8 @@ select {
   padding-left: 2.5rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .text-left {
@@ -2059,10 +2064,6 @@ select {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.no-underline {
-  text-decoration-line: none;
-}
-
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2153,6 +2154,10 @@ select {
   margin-top: -1rem;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:text-blueGray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
@@ -2171,11 +2176,6 @@ select {
 .hover\:text-blueGray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-lg:hover {
@@ -2273,6 +2273,10 @@ select {
     margin-left: 16rem;
   }
 
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:mt-40 {
     margin-top: 10rem;
   }
@@ -2287,10 +2291,6 @@ select {
 
   .md\:mt-4 {
     margin-top: 1rem;
-  }
-
-  .md\:mb-4 {
-    margin-bottom: 1rem;
   }
 
   .md\:block {
