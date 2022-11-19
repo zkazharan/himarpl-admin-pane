@@ -106,12 +106,12 @@ export default function Sidebar() {
                         ? 'opacity-75'
                         : 'text-white')
                     }></i>{' '}
-                  Post
+                  Service Post
                 </div>
                 <div className={'text-xs uppercase font-bold block text-white pl-6 ' + ddPost}>
                   <ul>
-                    <li className='mb-6 mt-2'><Link to='/admin/settings'>Post 1</Link></li>
-                    <li className='mb-6'><Link to='/admin/settings'>Post 2</Link></li>
+                    <li className='mb-6 mt-2'><Link to='/admin/service-post/post'>Post</Link></li>
+                    <li className='mb-6'><Link to='/admin/service-post/category'>Category</Link></li>
                   </ul>
                 </div>
               </li>
